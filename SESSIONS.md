@@ -2,14 +2,16 @@
 
 read this first. latest state of fomties.com and the last session in detail. `MEMORY.md` has history, `CLAUDE.md` the conventions.
 
-last updated: 2026-10-26 14:20, session 1.
+last updated: 2026-10-26 21:50, session 1 (closed).
 
 ## state
 
-- **not live yet.** repo scaffolded on ryan's mac at `~/fomties-website-main`. no git init, no github, no netlify yet. fomties.com still points at the old quartz site (netlify project `fomt`).
-- stack: astro 5 static, plain css, one script, content in `src/data/site.json`.
-- pages: `/` only. `/apply` and `/newsletter` redirect out (netlify.toml). `/conversations` is planned, not built.
-- mock lives on a claude design canvas ("fomties landing mockup", v3 poster + phone artboards). the repo is that mock ported, plus motion.
+- **ready to publish, not live yet.** git repo on ryan's mac at `~/fomties-website-main`, 4 commits on `main`, nothing pushed. next: ryan publishes to github (`ryeones/fomties-website`) from github desktop, then repoints netlify project `fomt` (serves www.fomties.com, currently building the old quartz repo `ryeones/fomties.com`) to the new repo and triggers a deploy. the old quartz site stays in its repo.
+- pages: `/` (intro cover → hero → three kinds → why → strip → how it works → plan → close → footer), `/letter`, `/stories`, `/strategies`, `/systems`, `/spaces`. redirects `/apply` `/newsletter` `/waitlist`.
+- no buttons anywhere, only underlined mono links. headings wrap naturally, never balanced. alignment rule in CLAUDE.md.
+- mobile pass done at 390 and 430: header wraps, links side by side, footer two rows, strip 2-col cards, no horizontal scroll. strip pause is desktop-only (ios sticky hover).
+- og image at `public/assets/og.jpg` (hero line on the blue photo). countdown runs to 11 jan 2030 (born 2000-01-11).
+- open: real reel links for the stories cards; letter year (used 2025, ryan said "2024 or something" — confirm).
 
 ## how we work
 
@@ -48,3 +50,10 @@ last updated: 2026-10-26 14:20, session 1.
 - then: animation pass with `find-animation-opportunities` → `animate` → `review-animations`.
 - then: own photo (barber chair / car / kickabout), rerun the image pass, swap.
 - then: git init, github, netlify `fomt` repointed, old quartz folder moved aside.
+
+### close of session 1 (21:50)
+- buttons → links everywhere, one grammar. letter page has no cta, ends on the origin line.
+- mobile pass. the real bug was the sub-page header meta overflowing and dragging the whole page sideways.
+- strip hardened for safari (fixed duration, -webkit-mask, 3d transform, js fallback that drives it if the css animation doesn't move).
+- og image, real birthday, git init + 4 commits. ryan publishes and repoints netlify himself.
+- vault: three fomties notes — `atlas/notes/fomties.md` is the frozen origin, the efforts project note is the living hub, `fomties.com.md` (currently a placeholder in `x/archive/old site/creations`) should become the build log for the site. same pattern for soffcopy once something is live on a domain.
