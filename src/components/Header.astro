@@ -1,0 +1,17 @@
+---
+import site from '../data/site.json'
+import pages from '../data/pages.json'
+const { nav = false } = Astro.props
+const path = Astro.url.pathname.replace(/\.html$/, '')
+---
+<header class="top in" style="--i:0">
+  <div class="left">
+    <a class="brand" href="/" data-cur="home">{site.name}<sup>™</sup></a>
+    {nav && <nav class="nav mono">{pages.nav.map((n) => <a href={n.href} class={path === n.href ? 'on' : ''}>{n.label}</a>)}</nav>}
+  </div>
+  <div class="meta mono">
+    <span class="hide-s scr" id="tag" data-t={site.tagline}>{site.tagline}</span>
+    <span class="place"><span class="rot" id="place" data-list={JSON.stringify(site.places)}>{site.places[0]}</span><span class="yr"> · {site.year}</span></span>
+    <span class="clock" id="clock" aria-hidden="true">00:00:00</span>
+  </div>
+</header>

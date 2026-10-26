@@ -1,0 +1,13 @@
+---
+import Page from '../layouts/Page.astro'
+import pages from '../data/pages.json'
+const p = pages.strategies
+---
+<Page title={p.title} count={p.count} intro={p.intro}>
+  <div class="mono lbl in" style="--i:4">each issue is one of three things, or a mix</div>
+  <div class="rows in" style="--i:5">
+    {p.kinds.map((k) => <div class="row"><div class="t3">{k.k}</div><p class="body">{k.v}</p></div>)}
+  </div>
+  <p class="body promise in" style="--i:6">{p.promise}</p>
+  <a class="mono golink in" style="--i:7" href={p.cta.href} target="_blank" rel="noopener" data-cur="read">{p.cta.label} →</a>
+</Page>

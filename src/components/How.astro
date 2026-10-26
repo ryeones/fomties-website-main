@@ -1,0 +1,16 @@
+---
+import site from '../data/site.json'
+const h = site.how
+---
+<section class="block how">
+  <div class="mono lbl reveal">{h.eyebrow}</div>
+  <div class="steps" style={`--c:${h.steps.length}`}>
+    {h.steps.map((s, i) => (
+      <div class="step reveal" style={`--i:${i + 1}`}>
+        <div class="mono n">{s.n} · {s.label}</div>
+        <h3 class="t3">{s.title}</h3>
+        <p class="body">{s.body}</p>
+      </div>
+    ))}
+  </div>
+</section>

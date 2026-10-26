@@ -1,0 +1,16 @@
+---
+import site from '../data/site.json'
+---
+<section class="hero">
+  <div class="eyebrow mono in" style="--i:1"><i class="rec"></i>{site.eyebrow}</div>
+  <h1 class="in" style="--i:2">
+    <span class="line">{site.headline}</span>
+    <span class="turn" id="turn" data-list={JSON.stringify(site.turns)}>{site.turns[0]}</span>
+  </h1>
+  <p class="sub body in" style="--i:3">{site.sub}</p>
+  <div class="ctas in" style="--i:4">
+    <a class="mono golink main" href={site.cta.href} target="_blank" rel="noopener" data-cur="apply">{site.cta.label} →</a>
+    <a class="mono golink" href={site.cta2.href} target="_blank" rel="noopener" data-cur="read">{site.cta2.label} →</a>
+  </div>
+  <div class="hint mono in" style="--i:5" id="hint">scroll<i></i></div>
+</section>

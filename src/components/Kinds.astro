@@ -1,0 +1,17 @@
+---
+import site from '../data/site.json'
+const k = site.kinds
+---
+<section class="block kinds">
+  <div class="mono lbl reveal">{k.eyebrow}</div>
+  <h2 class="reveal" style="--i:1">{k.title}</h2>
+  <div class="kind-list">
+    {k.items.map((it, i) => (
+      <div class="kind reveal" style={`--i:${i + 2}`}>
+        <div class="k t3">{it.k}</div>
+        <p class="body v">{it.v}</p>
+      </div>
+    ))}
+  </div>
+  <p class="kind-close t3 reveal" style="--i:5">{k.close}</p>
+</section>

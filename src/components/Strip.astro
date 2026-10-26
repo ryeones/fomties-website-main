@@ -1,0 +1,22 @@
+---
+import site from '../data/site.json'
+const s = site.strip
+const dir = s.grade === 'bw' ? '/assets/strip-bw/' : '/assets/strip/'
+const items = [...s.items, ...s.items]
+---
+<section class="block strip">
+  <div class="strip-head">
+    <div class="mono lbl reveal">{s.eyebrow}</div>
+    <div class="body note reveal" style="--i:1">{s.note}</div>
+  </div>
+  <div class="rail reveal" style="--i:2">
+    <div class="track" id="track" style={`animation-duration:${s.items.length * 9}s`}>
+      {items.map((it, i) => (
+        <figure class="frame" aria-hidden={i >= s.items.length ? 'true' : undefined}>
+          <img src={dir + it.src} alt="" loading="lazy" />
+          <figcaption class="mono">{it.cap}</figcaption>
+        </figure>
+      ))}
+    </div>
+  </div>
+</section>

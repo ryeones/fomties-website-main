@@ -1,0 +1,157 @@
+{
+  "nav": [
+    {
+      "label": "stories",
+      "href": "/stories"
+    },
+    {
+      "label": "strategies",
+      "href": "/strategies"
+    },
+    {
+      "label": "systems",
+      "href": "/systems"
+    },
+    {
+      "label": "spaces",
+      "href": "/spaces"
+    },
+    {
+      "label": "letter",
+      "href": "/letter"
+    }
+  ],
+  "stories": {
+    "title": "stories",
+    "count": "conversations with twenty-somethings · more every two weeks",
+    "intro": "filmed conversations with people in their twenties. not the version where everything worked out — the one where they're still in it. what they're doing, what they're not saying, and the question they'd ask the next person.",
+    "note": "honest bit: the first few weren't conversations yet. i was too scared to ask strangers to talk, so i handed them my notebook and asked for one piece of advice for someone in their twenties. that was version one. zack was the first time i actually sat down and talked.",
+    "empty": "the cuts aren't up yet. the first ones go out in november.",
+    "cta": {
+      "label": "sit down with us",
+      "href": "https://fomties.notion.site/405e41e19f358092a0a9e49f9ab6eefd"
+    },
+    "items": [
+      {
+        "src": "01.jpg",
+        "name": "tatsu",
+        "role": "family business",
+        "place": "japan",
+        "kind": "wrote",
+        "line": "have many experiences, it makes your life so beautiful. 一期一会",
+        "sub": "ichigo ichie — one time, one meeting.",
+        "href": ""
+      },
+      {
+        "src": "02.jpg",
+        "name": "gou",
+        "role": "receptionist",
+        "place": "japan",
+        "kind": "wrote",
+        "line": "1日1日を大切に、何があっても目標に向かって努力をしよう。",
+        "sub": "cherish every day, walk towards your goals.",
+        "href": ""
+      },
+      {
+        "src": "03.jpg",
+        "name": "lee",
+        "role": "traveller",
+        "place": "china",
+        "kind": "wrote",
+        "line": "耐心",
+        "sub": "nàixīn — be patient.",
+        "href": ""
+      },
+      {
+        "src": "04.jpg",
+        "name": "zack",
+        "role": "barber",
+        "place": "singapore",
+        "kind": "said",
+        "line": "some guys are more loyal to their barbers than to their partners.",
+        "sub": "",
+        "href": "https://www.instagram.com/fomties"
+      },
+      {
+        "src": "05.jpg",
+        "name": "the bois",
+        "role": "a night out",
+        "place": "tokyo",
+        "kind": "photo",
+        "line": "they didn't write anything. they walked up and asked for a photo.",
+        "sub": "",
+        "href": ""
+      }
+    ]
+  },
+  "strategies": {
+    "title": "strategies",
+    "count": "the newsletter · at least one email every two weeks",
+    "intro": "the written side of fomties. what i'm thinking, what i'm building, and what people say when the camera's off.",
+    "kinds": [
+      {
+        "k": "my reflections",
+        "v": "what i'm working through that fortnight. the honest version, in writing."
+      },
+      {
+        "k": "behind the scenes",
+        "v": "what it's actually taking to build fomties — the asks, the no's, the stuff that didn't work."
+      },
+      {
+        "k": "the conversations",
+        "v": "the uncut side. what someone said that didn't make the cut, and what i'm still thinking about."
+      }
+    ],
+    "promise": "every issue is some mix of those three. no roundups of things you didn't ask for. no selling. if an issue isn't worth your five minutes, it doesn't get sent.",
+    "cta": {
+      "label": "subscribe on substack",
+      "href": "https://ryeones.substack.com"
+    }
+  },
+  "systems": {
+    "title": "systems",
+    "count": "tools and frameworks · built from the conversations",
+    "intro": "everything here comes out of a real conversation and years of actually using it. if it's on this page, it's been tested in the middle of not knowing.",
+    "items": [
+      {
+        "k": "habit tracker",
+        "s": "soon",
+        "v": "the digital version of the paper journal i've kept for the last three, four years. five minutes a day, nothing clever, the reason it stuck."
+      },
+      {
+        "k": "lifeos vault",
+        "s": "soon",
+        "v": "one place for your thoughts and what you've learnt. plain text files on your own computer — yours, searchable, never locked inside someone's app. the second brain i run fomties, and the rest of my life, out of."
+      }
+    ],
+    "ask": "struggling with something you suspect everyone else is too? tell me. that's usually where the next one comes from.",
+    "cta": {
+      "label": "tell ryan",
+      "href": "mailto:hello@fomties.com"
+    }
+  },
+  "spaces": {
+    "title": "spaces",
+    "count": "waitlist open · first room soon",
+    "intro": "the conversations were never meant to stay on a screen. spaces is the in-person side — a room of twenty-somethings who are figuring it out and okay saying so. small dinners, walks, the occasional venue someone lends us. still being built. if you're early, you help shape it.",
+    "rules": [
+      {
+        "k": "small",
+        "v": "not a discord with ten thousand people watching. a room where everyone talks."
+      },
+      {
+        "k": "honest",
+        "v": "same rule as the conversations. the real version, or don't bother."
+      },
+      {
+        "k": "no requirements",
+        "v": "no followers, no startup, no finished anything. a story and the willingness to tell it."
+      }
+    ],
+    "venue": "got a room, a rooftop, a cafe after hours? that's how the early ones get made. say so on the form.",
+    "cta": {
+      "label": "join the waitlist",
+      "href": "https://fomties.notion.site/405e41e19f3580d5912dc1802a99388b"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+---
+import site from '../data/site.json'
+const p = site.plan
+---
+<section class="block plan">
+  <div class="mono lbl reveal">{p.eyebrow}</div>
+  <h2 class="reveal" style="--i:1">{p.title}</h2>
+  <div class="plan-list">
+    {p.items.map((it, i) => (
+      <a class={`plan-row reveal ${it.s}`} style={`--i:${i + 2}`} href={it.href} data-cur="open">
+        <div class="k t3">{it.k}</div>
+        <div class="mono s">{it.s}</div>
+        <p class="body v">{it.v}</p>
+        <span class="mono arr" aria-hidden="true">→</span>
+      </a>
+    ))}
+  </div>
+</section>

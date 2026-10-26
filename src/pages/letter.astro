@@ -1,0 +1,24 @@
+---
+import Base from '../layouts/Base.astro'
+import Header from '../components/Header.astro'
+import Footer from '../components/Footer.astro'
+import site from '../data/site.json'
+const l = site.letter
+---
+<Base title="a letter from ryan — fomties™" description={l.body[0]}>
+  <Header nav={true} />
+  <main class="page">
+    <article class="block letter-page">
+      <div class="mono lbl in" style="--i:1">{l.date}</div>
+      <h1 class="in" style="--i:2">{l.title}</h1>
+      <div class="letter">
+        {l.body.map((p, i) => <p class="in" style={`--i:${i + 3}`}>{p}</p>)}
+        <div class="sign-row in" style="--i:12">
+          <span class="mono sign">{l.sign}</span>
+          <span class="mono origin">{l.origin}</span>
+        </div>
+      </div>
+    </article>
+  </main>
+  <Footer />
+</Base>

@@ -1,0 +1,235 @@
+{
+  "name": "fomties",
+  "tagline": "figuring out my twenties",
+  "places": [
+    "singapore",
+    "kuala lumpur",
+    "jakarta",
+    "sydney",
+    "london",
+    "new york",
+    "tokyo",
+    "seoul"
+  ],
+  "year": "2026",
+  "eyebrow": "one question, passed on",
+  "headline": "everyone else looks like they have it figured out.",
+  "turns": [
+    "but they think the same about you.",
+    "but they feel behind too.",
+    "but they're guessing too.",
+    "but they compare too.",
+    "but they fear settling too.",
+    "but they wonder if it's too late.",
+    "but they lie to their parents too.",
+    "but they restart every january."
+  ],
+  "sub": "honest conversations about what this decade actually looks like — from people still inside it. big things, small things, the stuff nobody says out loud.",
+  "cta": {
+    "label": "sit down with us",
+    "href": "https://fomties.notion.site/405e41e19f358092a0a9e49f9ab6eefd"
+  },
+  "cta2": {
+    "label": "the newsletter",
+    "href": "https://ryeones.substack.com"
+  },
+  "steps": [
+    {
+      "n": "01",
+      "label": "apply",
+      "title": "your take on your twenties.",
+      "body": "one thing you believe that most people don't say out loud — and the story behind it. the messy version. no ai."
+    },
+    {
+      "n": "02",
+      "label": "conversation",
+      "title": "a simple chat. no script.",
+      "body": "online or in person, inside whatever you're already doing. one question, one story, as specific as you can get."
+    },
+    {
+      "n": "03",
+      "label": "uncut",
+      "title": "the cut goes out. the question gets passed on.",
+      "body": "the short version on instagram. the uncut one — plus the question you'd ask the next person — in the newsletter."
+    }
+  ],
+  "email": "hello@fomties.com",
+  "socials": [
+    {
+      "label": "instagram",
+      "href": "https://www.instagram.com/fomties"
+    },
+    {
+      "label": "tiktok",
+      "href": "https://www.tiktok.com/@figuringoutmytwenties"
+    },
+    {
+      "label": "youtube",
+      "href": "https://www.youtube.com/@fomties"
+    }
+  ],
+  "counter": {
+    "done": 0,
+    "total": 6
+  },
+  "room": [
+    "started their own thing",
+    "followed the plan",
+    "fresh grad, no idea",
+    "still at the first job",
+    "moved back home",
+    "quit without a plan",
+    "doing fine, pretending otherwise",
+    "left the country",
+    "24, already tired",
+    "29, not ready for 30"
+  ],
+  "kinds": {
+    "eyebrow": "the three kinds",
+    "title": "when someone asks what you're doing, there are three kinds of answers.",
+    "items": [
+      {
+        "k": "the ones with an answer.",
+        "v": "law. marketing. quit the job to build the thing. it sounds certain. it sounds like a plan."
+      },
+      {
+        "k": "the ones buying time.",
+        "v": "three months of travel. resting till the end of the year. an answer that isn't one yet."
+      },
+      {
+        "k": "the ones who don't know.",
+        "v": "more common than you think. we just say one or two out loud."
+      }
+    ],
+    "close": "for four years my answer was architecture. i was the third kind the whole time."
+  },
+  "what": {
+    "eyebrow": "why i'm doing this",
+    "body": [
+      "i think most of us in our twenties feel like everyone else has it figured out. the funny thing is they probably feel the same about us.",
+      "so i'm getting out of my comfort zone to have real conversations about what this decade actually looks like. to remind people they're not the only ones.",
+      "if you're in your twenties and have something you'd be okay talking about — big or small — the form takes five minutes."
+    ],
+    "more": {
+      "label": "read the full letter",
+      "href": "/letter"
+    },
+    "sign": "— ryan, 26, singapore"
+  },
+  "strip": {
+    "eyebrow": "from the conversations",
+    "note": "a few of the people so far.",
+    "items": [
+      {
+        "src": "01.jpg",
+        "cap": "tatsu · family business · japan"
+      },
+      {
+        "src": "02.jpg",
+        "cap": "gou · receptionist · japan"
+      },
+      {
+        "src": "03.jpg",
+        "cap": "lee · traveller · china"
+      },
+      {
+        "src": "04.jpg",
+        "cap": "zack · barber · singapore"
+      },
+      {
+        "src": "05.jpg",
+        "cap": "the bois · tokyo disneyland"
+      }
+    ],
+    "grade": "film"
+  },
+  "how": {
+    "eyebrow": "how it works",
+    "steps": [
+      {
+        "n": "01",
+        "label": "we meet",
+        "title": "three ways in.",
+        "body": "the form. a stranger on the street. a message to someone whose story i want to hear. all three count."
+      },
+      {
+        "n": "02",
+        "label": "we talk",
+        "title": "no script, no prep.",
+        "body": "wherever you already are — a haircut, a hotel desk, a walk. one proper conversation, the real version."
+      },
+      {
+        "n": "03",
+        "label": "it goes out",
+        "title": "the cut, the uncut.",
+        "body": "the short version goes on instagram. the full one, and what i took from it, goes to the newsletter."
+      },
+      {
+        "n": "04",
+        "label": "pass it on",
+        "title": "leave a question.",
+        "body": "one thing you're still figuring out. i ask it to whoever i sit down with next, and it keeps going."
+      }
+    ]
+  },
+  "close": {
+    "title": "it's okay to say it out loud.",
+    "sub": "sit down for a conversation, or follow along in the newsletter — one email every two weeks."
+  },
+  "plan": {
+    "eyebrow": "the plan",
+    "title": "where this is going.",
+    "items": [
+      {
+        "k": "stories",
+        "s": "now",
+        "v": "honest conversations with 20-somethings. early access to be featured.",
+        "href": "/stories",
+        "link": "see"
+      },
+      {
+        "k": "strategies",
+        "s": "now",
+        "v": "a weekly newsletter — reflections and what's actually working, from someone figuring it out in real time.",
+        "href": "/strategies",
+        "link": "see"
+      },
+      {
+        "k": "systems",
+        "s": "next",
+        "v": "tools & frameworks to help you live your own life, instead of chasing someone else's.",
+        "href": "/systems",
+        "link": "see"
+      },
+      {
+        "k": "spaces",
+        "s": "soon",
+        "v": "we want to bring back community — if you're figuring it out too, join the waitlist.",
+        "href": "/spaces",
+        "link": "see"
+      }
+    ]
+  },
+  "letter": {
+    "title": "a letter from ryan",
+    "date": "30 july 2025 · 7:15pm",
+    "body": [
+      "i spent four years studying a degree i knew wasn't right for me. the funny thing is i knew it on the very first lesson. i stayed anyway. not because something changed — i just wanted an answer to give when people asked the age-old question: what are you doing?",
+      "that question follows you your entire life. when you're growing up it's what do you want to be. then it's what are you studying, what are you planning to do. the phrasing changes. the pressure of having an answer doesn't.",
+      "and as i grew up i noticed there are three kinds of people. the first actually have an answer — they're studying law, or marketing, or they quit their job to build the thing they're passionate about. it sounds certain. it sounds like a plan. the second will say they're taking three months to travel, or giving themselves till the end of the year to rest. and the third, which is far more common than you'd think, genuinely don't know. they're still figuring it out. but you're expected to have an answer, so you give option one or two.",
+      "for four years i went with option one. i'm studying architecture. honestly, it felt certain. it gave me a sense of calm. and as much as i couldn't wait to graduate, i feared it deeply — because the moment i did, i couldn't use that answer anymore. desperate to escape, terrified of what escaping meant. both true at the same time, and no real way out.",
+      "fast forward a few months. i've graduated. i'm working in an industry completely different from what i studied. part of me still feels like i wasted my parents' money and my own time.",
+      "but the more conversations i have — with family, with friends, even with the people i follow online — the more i think that as much as everyone seems to have it figured out, the fears we carry are almost the same. for the most part we're all just figuring it out. no one says it first. but when someone does, the response is always the same: me too.",
+      "people tell you that in your twenties you have your whole life to figure it out. the implication is that it gets clearer — at a certain age, at a certain milestone. honestly, i don't think that line exists. not at 40, not at 60. maybe some of us spend a whole lifetime on this question. and sometimes that feels a little alone.",
+      "so this is me putting it out there. maybe it's okay to say it out loud sometimes."
+    ],
+    "sign": "— ryan tham, 26, singapore",
+    "origin": "fomties started as a line in my apple notes on 30 july 2025, 7:15pm. this is the longer version."
+  },
+  "coords": "1.3721° n, 103.9474° e",
+  "born": "2001-03-01",
+  "intro": {
+    "from": "figuring out my twenties",
+    "to": "fomties"
+  }
+}

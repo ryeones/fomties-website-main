@@ -1,0 +1,14 @@
+---
+import site from '../data/site.json'
+const w = site.what
+---
+<section class="block what">
+  <div class="mono lbl reveal">{w.eyebrow}</div>
+  <div class="letter">
+    {w.body.map((p, i) => <p class="reveal" style={`--i:${i + 1}`}>{p}</p>)}
+    <div class="sign-row reveal" style="--i:4">
+      <span class="mono sign">{w.sign}</span>
+      <a class="mono more" href={w.more.href} data-cur="read">{w.more.label} →</a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,21 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[[redirects]]
+  from = "/apply"
+  to = "https://fomties.notion.site/405e41e19f358092a0a9e49f9ab6eefd"
+  status = 302
+
+[[redirects]]
+  from = "/newsletter"
+  to = "https://ryeones.substack.com"
+  status = 302
+
+[[redirects]]
+  from = "/waitlist"
+  to = "https://fomties.notion.site/405e41e19f3580d5912dc1802a99388b"
+  status = 302

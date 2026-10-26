@@ -1,0 +1,18 @@
+---
+import Base from './Base.astro'
+import Header from '../components/Header.astro'
+import Footer from '../components/Footer.astro'
+const { title, count, intro, description } = Astro.props
+---
+<Base title={`${title} — fomties™`} description={description || intro}>
+  <Header nav={true} />
+  <main class="page">
+    <article class="block sub-page">
+      <div class="mono lbl in" style="--i:1">{count}</div>
+      <h1 class="in" style="--i:2">{title}</h1>
+      <p class="lede in" style="--i:3">{intro}</p>
+      <slot />
+    </article>
+  </main>
+  <Footer />
+</Base>

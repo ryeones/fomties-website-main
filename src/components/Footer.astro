@@ -1,0 +1,10 @@
+---
+import site from '../data/site.json'
+---
+<footer class="foot mono reveal" style="--i:3">
+  <div class="links">
+    {site.socials.map((s) => <a href={s.href} target="_blank" rel="noopener">{s.label}</a>)}
+  </div>
+  <button class="mail" id="mail" type="button" data-email={site.email} aria-label="copy email">{site.email}<span class="kbd">c</span></button>
+  <span class="coords" id="coords" data-t={site.coords}>{site.coords}</span>
+</footer>

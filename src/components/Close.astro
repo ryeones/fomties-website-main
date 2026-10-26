@@ -1,0 +1,12 @@
+---
+import site from '../data/site.json'
+const c = site.close
+---
+<section class="block closing">
+  <h2 class="reveal">{c.title}</h2>
+  <p class="body sub reveal" style="--i:1">{c.sub}</p>
+  <div class="ctas reveal" style="--i:2">
+    <a class="mono golink main" href={site.cta.href} target="_blank" rel="noopener" data-cur="apply">{site.cta.label} →</a>
+    <a class="mono golink" href={site.cta2.href} target="_blank" rel="noopener" data-cur="read">{site.cta2.label} →</a>
+  </div>
+</section>
