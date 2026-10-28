@@ -2,11 +2,13 @@
 
 read this first. latest state of fomties.com and the last session in detail. `MEMORY.md` has history, `CLAUDE.md` the conventions.
 
-last updated: 2026-10-26 21:50, session 1 (closed).
+last updated: 2026-10-28 17:15 (vault session, no code changed). session 1 closed 2026-10-26 21:50.
 
 ## state
 
-- **ready to publish, not live yet.** git repo on ryan's mac at `~/fomties-website-main`, 4 commits on `main`, nothing pushed. next: ryan publishes to github (`ryeones/fomties-website`) from github desktop, then repoints netlify project `fomt` (serves www.fomties.com, currently building the old quartz repo `ryeones/fomties.com`) to the new repo and triggers a deploy. the old quartz site stays in its repo.
+- **2026-10-28 · live.** published to github and netlify `fomt` on the night of 26 oct; www.fomties.com serves this repo. substack welcome post is out; the newsletter stays at `ryeones.substack.com` for now (ryan's call, ~50 subscribers there). the brand is now written down in the vault: `~/ryeones world/efforts/02 agency/fomties/brand/fomties brand.md` — rendered from this site's css, so it's the reference for any new asset. small copy inconsistency to fix some time: the homepage plan block says "a weekly newsletter", everywhere else says every two weeks.
+
+- *(superseded 26 oct night)* **ready to publish, not live yet.** git repo on ryan's mac at `~/fomties-website-main`, 4 commits on `main`, nothing pushed. next: ryan publishes to github (`ryeones/fomties-website`) from github desktop, then repoints netlify project `fomt` (serves www.fomties.com, currently building the old quartz repo `ryeones/fomties.com`) to the new repo and triggers a deploy. the old quartz site stays in its repo.
 - pages: `/` (intro cover → hero → three kinds → why → strip → how it works → plan → close → footer), `/letter`, `/stories`, `/strategies`, `/systems`, `/spaces`. redirects `/apply` `/newsletter` `/waitlist`.
 - no buttons anywhere, only underlined mono links. headings wrap naturally, never balanced. alignment rule in CLAUDE.md.
 - mobile pass done at 390 and 430: header wraps, links side by side, footer two rows, strip 2-col cards, no horizontal scroll. strip pause is desktop-only (ios sticky hover).

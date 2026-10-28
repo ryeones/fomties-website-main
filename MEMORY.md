@@ -34,6 +34,8 @@ export: 1080×1440 tall · 1600×1111 wide crop (y 260–1010 of the tall)
 
 ## sessions
 
+- 2026-10-28 · vault-side only: brand doc, issue template, channels doc, project memory rewritten in `~/ryeones world/efforts/02 agency/fomties/`. decision: substack stays `ryeones.substack.com` for now; if it ever moves to `fomties.substack.com` the links are `site.json → cta2.href`, `pages.json → strategies.cta.href`, `netlify.toml → /newsletter`.
+
 - session 1 · 2026-10-26 · plan, three mock rounds, scaffold. see SESSIONS.md.
 
 ## standing rules ryan has repeated
